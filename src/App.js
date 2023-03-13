@@ -45,6 +45,7 @@ function App() {
   return (
     <div className="App" style={{ margin: 20, fontSize: 16 }}>
       <a href={`webcal://${window.location.host}/calendar_demo/calendar.ics`} >打开日历</a>
+      <p>{`<a href='webcal://xxxx/calendar.ics' />`}</p>
       {/* <button onClick={download}>打开日历</button> */}
     </div>
   );
